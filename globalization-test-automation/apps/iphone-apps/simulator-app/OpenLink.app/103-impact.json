@@ -1,0 +1,500 @@
+{
+    "productId": 103,
+    "modelNumber": "2857-20",
+    "featureSetVersion": 0,
+    "isDefault": true,
+    "minimumMemoryMapVersion": null,
+    "toolManagementId": 0,
+    "eventsPerServicePeriod": 0,
+    "features": [
+                 {
+                 "featureId": 1030101,
+                 "isEnabledByDefault": true,
+                 "name": "GLOBAL Worklight Settings",
+                 "wirelessFeatureId": "001E",
+                 "wirelessFeatureIdInteger": 30,
+                 "staticSettings": [],
+                 "settings": [
+                              {
+                              "name": "Work Light Brightness",
+                              "bytes": [
+                                        1,
+                                        2
+                                        ],
+                              "uiLow": "",
+                              "uiHigh": "",
+                              "low": 0,
+                              "high": 10,
+                              "increment": 1,
+                              "default": 10,
+                              "alternateSettings": {}
+                              },
+                              {
+                              "name": "Work Light Duration",
+                              "bytes": [
+                                        3,
+                                        4
+                                        ],
+                              "uiLow": "0",
+                              "uiHigh": "30 seconds",
+                              "low": 1,
+                              "high": 30000,
+                              "increment": 1000,
+                              "default": 10000,
+                              "alternateSettings": {
+                              "always-on-duration": "65535"
+                              }
+                              }
+                              ]
+                 },
+                 {
+                 "featureId": 1030206,
+                 "isEnabledByDefault": true,
+                 "name": "Self-Tapping Screw",
+                 "wirelessFeatureId": "0001",
+                 "staticSettings": [
+                                    {
+                                    "name": "Current",
+                                    "bytes": [
+                                              7,
+                                              8
+                                              ],
+                                    "value": 0
+                                    }
+                                    ],
+                 "settings": [
+                              {
+                              "name": "Starting Speed",
+                              "bytes": [
+                                        1,
+                                        2
+                                        ],
+                              "uiLow": "Slower",
+                              "uiHigh": "Faster",
+                              "low": 0,
+                              "high": 0,
+                              "increment": 1,
+                              "default": 0,
+                              "alternateSettings": {}
+                              },
+                              {
+                              "name": "Driving Speed",
+                              "bytes": [
+                                        3,
+                                        4
+                                        ],
+                              "uiLow": "Slower",
+                              "uiHigh": "Faster",
+                              "low": 0,
+                              "high": 0,
+                              "increment": 1,
+                              "default": 0,
+                              "alternateSettings": {}
+                              },
+                              {
+                              "name": "Finishing Speed",
+                              "bytes": [
+                                        5,
+                                        6
+                                        ],
+                              "uiLow": "Slower",
+                              "uiHigh": "Faster",
+                              "low": 0,
+                              "high": 0,
+                              "increment": 1,
+                              "default": 0,
+                              "alternateSettings": {}
+                              }
+                              ]
+                 },
+                 {
+                 "featureId": 1030102,
+                 "isEnabledByDefault": true,
+                 "name": "Variable Bounded PWM",
+                 "wirelessFeatureId": "000B",
+                 "wirelessFeatureIdInteger": 11,
+                 "staticSettings": [
+                                    {
+                                    "name": "Min Speed",
+                                    "bytes": [
+                                              3,
+                                              4
+                                              ],
+                                    "value": 4
+                                    }
+                                    ],
+                 "settings": [
+                              {
+                              "name": "Max Speed",
+                              "bytes": [
+                                        1,
+                                        2
+                                        ],
+                              "uiLow": "4",
+                              "uiHigh": "100",
+                              "low": 4,
+                              "high": 100,
+                              "increment": 1,
+                              "default": 100,
+                              "alternateSettings": {}
+                              }
+                              ]
+                 },
+                 {
+                 "featureId": 1030103,
+                 "isEnabledByDefault": true,
+                 "name": "Soft Start Settings",
+                 "wirelessFeatureId": "0008",
+                 "wirelessFeatureIdInteger": 8,
+                 "staticSettings": [],
+                 "settings": [
+                              {
+                              "name": "Soft Start Time (ms)",
+                              "bytes": [
+                                        1,
+                                        2
+                                        ],
+                              "uiLow": "undefined",
+                              "uiHigh": "undefined",
+                              "low": 100,
+                              "high": 5000,
+                              "increment": 1,
+                              "default": 100,
+                              "alternateSettings": {}
+                              }
+                              ]
+                 },
+                 {
+                 "featureId": 1030104,
+                 "isEnabledByDefault": true,
+                 "name": "Timed Impact Count",
+                 "wirelessFeatureId": "001A",
+                 "wirelessFeatureIdInteger": 26,
+                 "staticSettings": [],
+                 "settings": [
+                              {
+                              "name": "Timed Impact Count",
+                              "bytes": [
+                                        1,
+                                        2
+                                        ],
+                              "uiLow": "1000",
+                              "uiHigh": "10000",
+                              "low": 1000,
+                              "high": 10000,
+                              "increment": 1000,
+                              "default": 5000,
+                              "alternateSettings": {
+                              "blowCountData":
+                              "1000,2000,3000,4000,5000,6000,7000,8000,9000,10000"
+                              }
+                              }
+                              ]
+                 },
+                 {
+                 "featureId": 1030105,
+                 "isEnabledByDefault": true,
+                 "name": "Self Tapping Screw REV 02 UNDEFINED",
+                 "wirelessFeatureId": "001D",
+                 "wirelessFeatureIdInteger": 29,
+                 "staticSettings": [],
+                 "settings": []
+                 },
+                 {
+                 "featureId": 1030106,
+                 "isEnabledByDefault": true,
+                 "name": "Concrete Anchor",
+                 "wirelessFeatureId": "0010",
+                 "wirelessFeatureIdInteger": 16,
+                 "staticSettings": [
+                                    {
+                                    "name": "2nd Speed",
+                                    "bytes": [
+                                              3,
+                                              4
+                                              ],
+                                    "value": 0
+                                    },
+                                    {
+                                    "name": "Target Impact Angle",
+                                    "bytes": [
+                                              5,
+                                              6
+                                              ],
+                                    "value": 0
+                                    }
+                                    ],
+                 "settings": [
+                              {
+                              "name": "MAX SPEED",
+                              "bytes": [
+                                        1,
+                                        2
+                                        ],
+                              "uiLow": "Slower",
+                              "uiHigh": "Faster",
+                              "low": 0,
+                              "high": 0,
+                              "increment": 1,
+                              "default": 0,
+                              "alternateSettings": {}
+                              },
+                              {
+                              "name": "Finishing Torque Level",
+                              "bytes": [
+                                        7,
+                                        8
+                                        ],
+                              "uiLow": "Level 1",
+                              "uiHigh": "Level 10",
+                              "low": 0,
+                              "high": 0,
+                              "increment": 20,
+                              "default": 0,
+                              "alternateSettings": {}
+                              }
+                              ]
+                 },
+                 {
+                 "featureId": 1030107,
+                 "isEnabledByDefault": true,
+                 "name": "Adaptive Output Control",
+                 "wirelessFeatureId": "0019",
+                 "wirelessFeatureIdInteger": 25,
+                 "staticSettings": [],
+                 "settings": [
+                              {
+                              "name": "MaxPwmWhileNotImpacting_Percent",
+                              "bytes": [
+                                        1,
+                                        2
+                                        ],
+                              "uiLow": "360",
+                              "uiHigh": "3000",
+                              "low": 30,
+                              "high": 100,
+                              "increment": 1,
+                              "default": 30,
+                              "alternateSettings": {}
+                              },
+                              {
+                              "name": "PwmWhileImpacting_Percent",
+                              "bytes": [
+                                        3,
+                                        4
+                                        ],
+                              "uiLow": "360",
+                              "uiHigh": "3000",
+                              "low": 30,
+                              "high": 100,
+                              "increment": 1,
+                              "default": 30,
+                              "alternateSettings": {}
+                              }
+                              ]
+                 }
+                 ],
+    "setups": [
+               {
+               "name": "Custom Drive Control",
+               "setupId": 1,
+               "interfaceId": 23,
+               "primarySetupFeatures": [
+                                        1030102,
+                                        1030104,
+                                        1030103,
+                                        1030107
+                                        ],
+               "optionalSetupFeatures": [
+
+               ],
+               "supportedMeasures": 0,
+               "permutationDataId": null,
+               "minimumClientVersion": 1
+               },
+               {
+               "name": "Self-Tapping Screw",
+               "setupId": 2,
+               "interfaceId": 2,
+               "primarySetupFeatures": [
+                                        1030206
+                                        ],
+               "optionalSetupFeatures": [
+               
+                                         ],
+               "supportedMeasures": 0,
+               "permutationDataId": 13,
+               "minimumClientVersion": 1
+               }
+               ],
+    "defaultModeSetups": [
+                          {
+                          "modeAddress": "7001",
+                          "interfaceId": 1,
+                          "setupId": 1,
+                          "name": "Preset 1",
+                          "setupData": null,
+                          "features": [
+                                       {
+                                       "featureId": 1030103,
+                                       "wirelessFeatureId": "0008",
+                                       "settings": [
+                                                    {
+                                                    "bytes": [
+                                                              1,
+                                                              2
+                                                              ],
+                                                    "value": 100
+                                                    }
+                                                    ]
+                                       },
+                                       {
+                                       "featureId": 1030102,
+                                       "wirelessFeatureId": "000B",
+                                       "settings": [
+                                                    {
+                                                    "bytes": [
+                                                              1,
+                                                              2
+                                                              ],
+                                                    "value": 36
+                                                    },
+                                                    {
+                                                    "bytes": [
+                                                              3,
+                                                              4
+                                                              ],
+                                                    "value": 4
+                                                    }
+                                                    ]
+                                       }
+                                       ]
+                          },
+                          {
+                          "modeAddress": "7075",
+                          "interfaceId": 1,
+                          "setupId": 1,
+                          "name": "Preset 2",
+                          "setupData": null,
+                          "features": [
+                                       {
+                                       "featureId": 1030103,
+                                       "wirelessFeatureId": "0008",
+                                       "settings": [
+                                                    {
+                                                    "bytes": [
+                                                              1,
+                                                              2
+                                                              ],
+                                                    "value": 100
+                                                    }
+                                                    ]
+                                       },
+                                       {
+                                       "featureId": 1030102,
+                                       "wirelessFeatureId": "000B",
+                                       "settings": [
+                                                    {
+                                                    "bytes": [
+                                                              1,
+                                                              2
+                                                              ],
+                                                    "value": 56
+                                                    },
+                                                    {
+                                                    "bytes": [
+                                                              3,
+                                                              4
+                                                              ],
+                                                    "value": 4
+                                                    }
+                                                    ]
+                                       }
+                                       ]
+                          },
+                          {
+                          "modeAddress": "70B9",
+                          "interfaceId": 1,
+                          "setupId": 1,
+                          "name": "Preset 3",
+                          "setupData": null,
+                          "features": [
+                                       {
+                                       "featureId": 1030103,
+                                       "wirelessFeatureId": "0008",
+                                       "settings": [
+                                                    {
+                                                    "bytes": [
+                                                              1,
+                                                              2
+                                                              ],
+                                                    "value": 100
+                                                    }
+                                                    ]
+                                       },
+                                       {
+                                       "featureId": 1030102,
+                                       "wirelessFeatureId": "000B",
+                                       "settings": [
+                                                    {
+                                                    "bytes": [
+                                                              1,
+                                                              2
+                                                              ],
+                                                    "value": 76
+                                                    },
+                                                    {
+                                                    "bytes": [
+                                                              3,
+                                                              4
+                                                              ],
+                                                    "value": 4
+                                                    }
+                                                    ]
+                                       }
+                                       ]
+                          },
+                          {
+                          "modeAddress": "7115",
+                          "interfaceId": 1,
+                          "setupId": 1,
+                          "name": "Preset 4",
+                          "setupData": null,
+                          "features": [
+                                       {
+                                       "featureId": 1030103,
+                                       "wirelessFeatureId": "0008",
+                                       "settings": [
+                                                    {
+                                                    "bytes": [
+                                                              1,
+                                                              2
+                                                              ],
+                                                    "value": 100
+                                                    }
+                                                    ]
+                                       },
+                                       {
+                                       "featureId": 1030102,
+                                       "wirelessFeatureId": "000B",
+                                       "settings": [
+                                                    {
+                                                    "bytes": [
+                                                              1,
+                                                              2
+                                                              ],
+                                                    "value": 100
+                                                    },
+                                                    {
+                                                    "bytes": [
+                                                              3,
+                                                              4
+                                                              ],
+                                                    "value": 4
+                                                    }
+                                                    ]
+                                       }
+                                       ]
+                          }
+                          ]
+}

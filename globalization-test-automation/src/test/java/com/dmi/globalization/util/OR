@@ -1,0 +1,16 @@
+Settings_Language&Region=name;Language & Region
+Settings_iPhone Language = name;iPhone Language
+Settings_Search=name;Search
+Settings_English(U.S)=name;English (U.S.)
+Settings_Done=name;Done
+Settings_ChangetoEnglish(U.S.)=name;Change to English (U.S.)
+Settings_OK= name;OK
+
+##Application
+SignIn = id;Sign In
+EmailAddressorGuestUsername = id;Email Address or Guest Username
+Password=id;Password
+Settings=id;Settings
+MyProfile=id;My Profile
+Cancel=id;Cancel
+LogOut=id;Log Out

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><AppiumAUT><XCUIElementTypeApplication type="XCUIElementTypeApplication" name="ONE-KEY™" label="ONE-KEY™" enabled="true" visible="true" x="0" y="0" width="375" height="667">
+  <XCUIElementTypeWindow type="XCUIElementTypeWindow" enabled="true" visible="true" x="0" y="0" width="375" height="667">
+    <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" x="0" y="0" width="375" height="667">
+      <XCUIElementTypeNavigationBar type="XCUIElementTypeNavigationBar" name="OpenLink.LoginTableView" enabled="true" visible="false" x="0" y="20" width="375" height="44">
+        <XCUIElementTypeButton type="XCUIElementTypeButton" name="Retour" label="Retour" enabled="true" visible="false" x="0" y="20" width="78" height="44"/>
+      </XCUIElementTypeNavigationBar>
+      <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" x="0" y="0" width="375" height="667">
+        <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" x="0" y="0" width="375" height="667">
+          <XCUIElementTypeTable type="XCUIElementTypeTable" enabled="true" visible="false" x="0" y="64" width="375" height="603">
+            <XCUIElementTypeImage type="XCUIElementTypeImage" name="logon_background" enabled="true" visible="false" x="0" y="64" width="375" height="120"/>
+            <XCUIElementTypeImage type="XCUIElementTypeImage" name="one-key-logo" enabled="true" visible="false" x="88" y="103" width="200" height="42"/>
+            <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="false" x="0" y="184" width="375" height="86">
+              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="Adresse courriel ou nom d'utilisateur d'invité" name="Adresse courriel ou nom d'utilisateur d'invité" label="Adresse courriel ou nom d'utilisateur d'invité" enabled="true" visible="false" x="26" y="202" width="323" height="19"/>
+              <XCUIElementTypeTextField type="XCUIElementTypeTextField" value="vm@demo.com" label="" enabled="true" visible="false" x="26" y="226" width="323" height="30">
+                <XCUIElementTypeTextField type="XCUIElementTypeTextField" value="vm@demo.com" label="" enabled="true" visible="false" x="26" y="226" width="323" height="30"/>
+              </XCUIElementTypeTextField>
+              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" x="0" y="269" width="375" height="1"/>
+              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" x="15" y="301" width="360" height="1"/>
+            </XCUIElementTypeCell>
+            <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="false" x="0" y="269" width="375" height="86">
+              <XCUIElementTypeTextField type="XCUIElementTypeTextField" value="miP4cvma" label="" enabled="true" visible="false" x="26" y="311" width="323" height="31">
+                <XCUIElementTypeTextField type="XCUIElementTypeTextField" value="miP4cvma" label="" enabled="true" visible="false" x="26" y="311" width="323" height="31"/>
+              </XCUIElementTypeTextField>
+              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="Mot de passe" name="Mot de passe" label="Mot de passe" enabled="true" visible="false" x="26" y="287" width="288" height="20"/>
+              <XCUIElementTypeButton type="XCUIElementTypeButton" enabled="true" visible="false" x="319" y="287" width="30" height="20"/>
+              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" x="0" y="354" width="375" height="1"/>
+              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" x="15" y="387" width="360" height="1"/>
+            </XCUIElementTypeCell>
+            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" x="20" y="375" width="335" height="92">
+              <XCUIElementTypeButton type="XCUIElementTypeButton" name="Se connecter" label="Se connecter" enabled="true" visible="false" x="20" y="375" width="335" height="36"/>
+              <XCUIElementTypeButton type="XCUIElementTypeButton" name="Mot de passe oublié" label="Mot de passe oublié" enabled="true" visible="false" x="20" y="431" width="335" height="36"/>
+            </XCUIElementTypeOther>
+          </XCUIElementTypeTable>
+        </XCUIElementTypeOther>
+      </XCUIElementTypeOther>
+      <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" x="0" y="607" width="375" height="60">
+        <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" x="0" y="612" width="375" height="44">
+          <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="En continuant, vous acceptez nos" name="En continuant, vous acceptez nos" label="En continuant, vous acceptez nos" enabled="true" visible="false" x="0" y="612" width="375" height="16"/>
+          <XCUIElementTypeButton type="XCUIElementTypeButton" name="Convention de licence d'utilisateur final" label="Convention de licence d'utilisateur final" enabled="true" visible="false" x="0" y="626" width="375" height="30"/>
+        </XCUIElementTypeOther>
+      </XCUIElementTypeOther>
+    </XCUIElementTypeOther>
+    <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="0" y="0" width="375" height="667">
+      <XCUIElementTypeOther type="XCUIElementTypeOther" name="SVProgressHUD" label="Ouverture de session" enabled="true" visible="true" x="0" y="0" width="375" height="667"/>
+    </XCUIElementTypeOther>
+  </XCUIElementTypeWindow>
+  <XCUIElementTypeWindow type="XCUIElementTypeWindow" enabled="true" visible="false" x="0" y="0" width="375" height="667">
+    <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" x="0" y="0" width="375" height="667">
+      <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" x="0" y="667" width="375" height="216"/>
+    </XCUIElementTypeOther>
+  </XCUIElementTypeWindow>
+  <XCUIElementTypeWindow type="XCUIElementTypeWindow" enabled="true" visible="true" x="0" y="0" width="375" height="667">
+    <XCUIElementTypeStatusBar type="XCUIElementTypeStatusBar" enabled="true" visible="true" x="0" y="0" width="375" height="20">
+      <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" x="0" y="0" width="375" height="20"/>
+      <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="0" y="0" width="375" height="20">
+        <XCUIElementTypeOther type="XCUIElementTypeOther" name="4 sur 5 barres, intensité du signal" label="4 sur 5 barres, intensité du signal" enabled="true" visible="true" x="6" y="0" width="17" height="20"/>
+        <XCUIElementTypeOther type="XCUIElementTypeOther" name="réseau Airtel" label="réseau Airtel" enabled="true" visible="true" x="26" y="0" width="31" height="20"/>
+        <XCUIElementTypeOther type="XCUIElementTypeOther" value="SSID" name="4G" label="4G" enabled="true" visible="true" x="66" y="0" width="17" height="20"/>
+        <XCUIElementTypeOther type="XCUIElementTypeOther" name="17:15" label="17:15" enabled="true" visible="true" x="174" y="0" width="31" height="20"/>
+        <XCUIElementTypeOther type="XCUIElementTypeOther" name="Ne pas déranger" label="Ne pas déranger" enabled="true" visible="true" x="236" y="0" width="9" height="20"/>
+        <XCUIElementTypeOther type="XCUIElementTypeOther" name="Orientation verrouillée" label="Orientation verrouillée" enabled="true" visible="true" x="251" y="0" width="12" height="20"/>
+        <XCUIElementTypeOther type="XCUIElementTypeOther" name="StandardLocationTrackingOn" label="Suivi de la localisation activé" enabled="true" visible="true" x="269" y="0" width="10" height="20"/>
+        <XCUIElementTypeOther type="XCUIElementTypeOther" name="Bluetooth connecté" label="Bluetooth connecté" enabled="true" visible="true" x="285" y="0" width="7" height="20"/>
+        <XCUIElementTypeOther type="XCUIElementTypeOther" name="Charge de la batterie : 100 %, Alimentation en courant alternatif" label="Charge de la batterie : 100 %, Alimentation en courant alternatif" enabled="true" visible="true" x="298" y="0" width="72" height="20"/>
+        <XCUIElementTypeOther type="XCUIElementTypeOther" name="Charge de la batterie : 100 %" label="Charge de la batterie : 100 %" enabled="true" visible="false" x="298" y="0" width="34" height="20"/>
+      </XCUIElementTypeOther>
+    </XCUIElementTypeStatusBar>
+  </XCUIElementTypeWindow>
+</XCUIElementTypeApplication></AppiumAUT>

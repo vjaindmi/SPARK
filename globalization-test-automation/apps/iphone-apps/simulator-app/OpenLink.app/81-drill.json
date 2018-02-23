@@ -1,0 +1,412 @@
+{
+    "productId": 81,
+    "modelNumber": "2805-20",
+    "featureSetVersion": 0,
+    "isDefault": true,
+    "minimumMemoryMapVersion": null,
+    "toolManagementId": 0,
+    "eventsPerServicePeriod": 0,
+    "features": [
+                 {
+                 "featureId": 810101,
+                 "isEnabledByDefault": true,
+                 "name": "GLOBAL Worklight Settings",
+                 "wirelessFeatureId": "001E",
+                 "wirelessFeatureIdInteger": 30,
+                 "staticSettings": [],
+                 "settings": [
+                              {
+                              "name": "Work Light Brightness",
+                              "bytes": [
+                                        1,
+                                        2
+                                        ],
+                              "uiLow": "",
+                              "uiHigh": "",
+                              "low": 0,
+                              "high": 10,
+                              "increment": 1,
+                              "default": 10,
+                              "alternateSettings": {}
+                              },
+                              {
+                              "name": "Work Light Duration",
+                              "bytes": [
+                                        3,
+                                        4
+                                        ],
+                              "uiLow": "0",
+                              "uiHigh": "30 seconds",
+                              "low": 1,
+                              "high": 30000,
+                              "increment": 1000,
+                              "default": 10000,
+                              "alternateSettings": {
+                              "always-on-duration": "65535"
+                              }
+                              }
+                              ]
+                 },
+                 {
+                 "featureId": 810102,
+                 "isEnabledByDefault": true,
+                 "name": "GLOBAL Kickback Settings",
+                 "wirelessFeatureId": "001F",
+                 "wirelessFeatureIdInteger": 31,
+                 "staticSettings": [],
+                 "settings": [
+                              {
+                              "name": "Sensitivity",
+                              "bytes": [
+                                        1,
+                                        2
+                                        ],
+                              "uiLow": "",
+                              "uiHigh": "",
+                              "low": 1,
+                              "high": 3,
+                              "increment": 1,
+                              "default": 2,
+                              "alternateSettings": {}
+                              },
+                              {
+                              "name": "Enabled",
+                              "bytes": [
+                                        3,
+                                        4
+                                        ],
+                              "uiLow": "",
+                              "uiHigh": "",
+                              "low": 0,
+                              "high": 1,
+                              "increment": 1,
+                              "default": 1,
+                              "alternateSettings": {}
+                              }
+                 ]
+                 },
+                 {
+                 "featureId": 810103,
+                 "isEnabledByDefault": true,
+                 "name": "GLOBAL Clutch Collar Ring Settings",
+                 "wirelessFeatureId": "0020",
+                 "wirelessFeatureIdInteger": 32,
+                 "staticSettings": [],
+                 "settings": [
+                              {
+                              "name": "max torque in HIGH speed",
+                              "bytes": [
+                                        1,
+                                        2
+                                        ],
+                              "uiLow": "Low",
+                              "uiHigh": "High",
+                              "low": 14,
+                              "high": 200,
+                              "increment": 1,
+                              "default": 200,
+                              "alternateSettings": {}
+                              },
+                              {
+                              "name": "min torque in HIGH speed",
+                              "bytes": [
+                                        3,
+                                        4
+                                        ],
+                              "uiLow": "",
+                              "uiHigh": "",
+                              "low": 14,
+                              "high": 200,
+                              "increment": 1,
+                              "default": 14,
+                              "alternateSettings": {}
+                              }
+                              ]
+                 },
+                 {
+                 "featureId": 810104,
+                 "isEnabledByDefault": true,
+                 "name": "Variable Bounded Constant Speed",
+                 "wirelessFeatureId": "0003",
+                 "wirelessFeatureIdInteger": 3,
+                 "staticSettings": [
+                                    {
+                                    "name": "Min Speed HIGH gear",
+                                    "bytes": [
+                                              3,
+                                              4
+                                              ],
+                                    "value": 5460
+                                    },
+                                    {
+                                    "name": "Min Speed LOW gear",
+                                    "bytes": [
+                                              7,
+                                              8
+                                              ],
+                                    "value": 5460
+                                    },
+                                    {
+                                    "name": "Speed Position Flag",
+                                    "bytes": [
+                                              9,
+                                              10
+                                              ],
+                                    "value": 2
+                                    }
+                                    ],
+                 "settings": [
+                              {
+                              "name": "Max Speed HIGH gear",
+                              "bytes": [
+                                        1,
+                                        2
+                                        ],
+                              "uiLow": "undefined",
+                              "uiHigh": "undefined",
+                              "low": 5460,
+                              "high": 27300,
+                              "increment": 1,
+                              "default": 27300,
+                              "alternateSettings": {}
+                              },
+                              {
+                              "name": "Max Speed LOW gear",
+                              "bytes": [
+                                        5,
+                                        6
+                                        ],
+                              "uiLow": "undefined",
+                              "uiHigh": "undefined",
+                              "low": 5460,
+                              "high": 27300,
+                              "increment": 1,
+                              "default": 27300,
+                              "alternateSettings": {}
+                              }
+                              ]
+                 },
+                 {
+                 "featureId": 810105,
+                 "isEnabledByDefault": true,
+                 "name": "Variable Bounded PWM with Two Speeds",
+                 "wirelessFeatureId": "000F",
+                 "wirelessFeatureIdInteger": 15,
+                 "staticSettings": [
+                                    {
+                                    "name": "Min Speed HIGH gear",
+                                    "bytes": [
+                                              3,
+                                              4
+                                              ],
+                                    "value": 4
+                                    },
+                                    {
+                                    "name": "Min Speed LOW gear",
+                                    "bytes": [
+                                              7,
+                                              8
+                                              ],
+                                    "value": 4
+                                    }
+                                    ],
+                 "settings": [
+                              {
+                              "name": "Max Speed HIGH gear",
+                              "bytes": [
+                                        1,
+                                        2
+                                        ],
+                              "uiLow": "540",
+                              "uiHigh": "2000",
+                              "low": 27,
+                              "high": 100,
+                              "increment": 1,
+                              "default": 100,
+                              "alternateSettings": {}
+                              },
+                              {
+                              "name": "Max Speed LOW gear",
+                              "bytes": [
+                                        5,
+                                        6
+                                        ],
+                              "uiLow": "99",
+                              "uiHigh": "550",
+                              "low": 18,
+                              "high": 100,
+                              "increment": 1,
+                              "default": 100,
+                              "alternateSettings": {}
+                              }
+                              ]
+                 },
+                 {
+                 "featureId": 810106,
+                 "isEnabledByDefault": true,
+                 "name": "Soft Start Settings",
+                 "wirelessFeatureId": "0008",
+                 "wirelessFeatureIdInteger": 8,
+                 "staticSettings": [],
+                 "settings": [
+                              {
+                              "name": "Soft Start Time (ms)",
+                              "bytes": [
+                                        1,
+                                        2
+                                        ],
+                              "uiLow": "undefined",
+                              "uiHigh": "undefined",
+                              "low": 20,
+                              "high": 5000,
+                              "increment": 1,
+                              "default": 20,
+                              "alternateSettings": {}
+                              }
+                              ]
+                 }
+                 ],
+    "setups": [
+               {
+               "name": "Custom Drive Control",
+               "setupId": 1,
+               "interfaceId": 21,
+               "primarySetupFeatures": [
+                                        810105,
+                                        810106
+                                        ],
+               "optionalSetupFeatures": [
+               ],
+               "supportedMeasures": 0,
+               "permutationDataId": null,
+               "minimumClientVersion": 11
+               }],
+    "defaultModeSetups": [
+                          {
+                          "modeAddress": "7001",
+                          "interfaceId": 21,
+                          "setupId": 1,
+                          "name": "Preset 1",
+                          "setupData": null,
+                          "features": [
+                                       {
+                                       "featureId": 810106,
+                                       "wirelessFeatureId": "0008",
+                                       "settings": [
+                                                    {
+                                                    "bytes": [
+                                                              1,
+                                                              2
+                                                              ],
+                                                    "value": 100
+                                                    }
+                                                    ]
+                                       },
+                                       {
+                                       "featureId": 810105,
+                                       "wirelessFeatureId": "000B",
+                                       "settings": [
+                                                    {
+                                                    "bytes": [
+                                                              1,
+                                                              2
+                                                              ],
+                                                    "value": 100
+                                                    },
+                                                    {
+                                                    "bytes": [
+                                                              3,
+                                                              4
+                                                              ],
+                                                    "value": 4
+                                                    }
+                                                    ]
+                                       }
+                                       ]
+                          },
+                          {
+                          "modeAddress": "705D",
+                          "interfaceId": 21,
+                          "setupId": 1,
+                          "name": "Preset 2",
+                          "setupData": null,
+                          "features": [
+                                       {
+                                       "featureId": 810106,
+                                       "wirelessFeatureId": "0008",
+                                       "settings": [
+                                                    {
+                                                    "bytes": [
+                                                              1,
+                                                              2
+                                                              ],
+                                                    "value": 100
+                                                    }
+                                                    ]
+                                       },
+                                       {
+                                       "featureId": 810105,
+                                       "wirelessFeatureId": "000B",
+                                       "settings": [
+                                                    {
+                                                    "bytes": [
+                                                              1,
+                                                              2
+                                                              ],
+                                                    "value": 100
+                                                    },
+                                                    {
+                                                    "bytes": [
+                                                              3,
+                                                              4
+                                                              ],
+                                                    "value": 4
+                                                    }
+                                                    ]
+                                       }
+                                       ]
+                          },
+                          {
+                          "modeAddress": "70B9",
+                          "interfaceId": 21,
+                          "setupId": 1,
+                          "name": "Preset 3",
+                          "setupData": null,
+                          "features": [
+                                       {
+                                       "featureId": 810106,
+                                       "wirelessFeatureId": "0008",
+                                       "settings": [
+                                                    {
+                                                    "bytes": [
+                                                              1,
+                                                              2
+                                                              ],
+                                                    "value": 100
+                                                    }
+                                                    ]
+                                       },
+                                       {
+                                       "featureId": 810105,
+                                       "wirelessFeatureId": "000B",
+                                       "settings": [
+                                                    {
+                                                    "bytes": [
+                                                              1,
+                                                              2
+                                                              ],
+                                                    "value": 100
+                                                    },
+                                                    {
+                                                    "bytes": [
+                                                              3,
+                                                              4
+                                                              ],
+                                                    "value": 4
+                                                    }
+                                                    ]
+                                       }
+                                       ]
+                          }
+                          ]
+}
